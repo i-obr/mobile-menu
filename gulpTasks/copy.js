@@ -14,3 +14,8 @@ gulp.task('copy:img', () => {
   return gulp.src('src/img/**')
     .pipe(gulp.dest('build/img'));
 });
+
+gulp.task('copy:scripts', () => {
+  return gulp.src(['src/js/**', '!src/js/index.js'])
+    .pipe(gulp.dest('build/js'));
+});

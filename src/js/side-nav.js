@@ -62,9 +62,7 @@ function SideNavigation(el) {
   function onPointerUp(e) {
     currentPosition = e.pageX;
     isGestureStarted = false;
-
     sidenav.releasePointerCapture(e.pointerId);
-
     enableTransition();
     resetPosition();
 
