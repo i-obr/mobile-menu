@@ -165,12 +165,3 @@ p {
 .side-nav__item a:hover {
   text-decoration: underline;
 }
-
-.fixed {
-  background: red;
-  height: 60px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
